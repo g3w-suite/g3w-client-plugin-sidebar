@@ -1,5 +1,5 @@
 {
-  "name": "PLUGIN NAME",
+  "name": "<PLUGIN_NAME>",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,23 +9,23 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "start": "gulp watch",
+    "watch": "gulp watch",
     "build": "gulp build"
   },
   "repository": {
     "type": "git",
-    "url": "git+<REPOSITORY PLUGIN>"
+    "url": "git+https://github.com/g3w-suite/g3w-client-plugin-<PLUGIN_NAME>.git"
   },
   "keywords": [
     "editing",
     "plugin"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "bugs": {
-    "url": "<REPOSITORY PLUGIN>issues"
+    "url": "https://github.com/g3w-suite/g3w-client-plugin-<PLUGIN_NAME>/issues"
   },
-  "homepage": "<REPOSITORY PLUGIN>#readme",
+  "homepage": "https://github.com/g3w-suite/g3w-client-plugin-<PLUGIN_NAME>/#readme",
   "browserslist": "defaults",
   "engines" : {
     "node" : ">=16.13.2",
